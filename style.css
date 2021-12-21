@@ -1,0 +1,356 @@
+body {
+    color: #1a1a1a;
+    background-image: linear-gradient(to right, rgb(230, 177, 177),orange,yellow,green,blue,indigo,violet);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li {
+    padding: 0 0 10px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #d67ae2;
+    padding: 46px;
+    position: fixed;
+    height: 100%;
+    width: 260px;
+    z-index: 5;
+}
+
+.header .avatar {
+    overflow: hidden;
+    width: 165px;
+    height: 165px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.header .avatar img {
+    width: 100%;
+}
+
+.header .name {
+    margin: 34px 0;
+}
+
+.header .name h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+	letter-spacing: 1px;
+    margin: 0 0 5px;
+    
+}
+
+.header .name span {
+    color: #d8d8e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+/* === Social Icons === */
+.header .social-icons {
+    margin: 0 0 34px;
+}
+
+.header .social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .social-icons ul li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+.header .social-icons ul li a {
+    color: #FFF;
+}
+
+.header .social-icons ul li a i {
+    font-size: 16px;
+}
+
+.header .social-icons ul li:last-child {
+    padding-right: 0;
+}
+/* === Navigation === */
+.header .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .main-nav ul li {
+    padding-bottom: 15px;
+}
+
+.header .main-nav ul li a {
+    color: rgb(194, 15, 15);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    }
+
+.header .main-nav ul li a:hover,.header .main-nav ul li a:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.section-header h2{
+    margin-top: 450px;
+}
+
+
+
+.main-content {
+    background: rgb(231, 227, 227);
+    width: 740px;
+    margin-left: 300px;
+}
+
+.main-content p {
+    color: #a11111;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* === Section Configure === */
+.main-content section {
+    padding: 60px 70px;
+    position: relative;
+    border-bottom: solid 1px rgb(188, 193, 218);
+}
+
+/* === Section Header === */
+.main-content section .section-header {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-content section .section-header h2 {
+    color: #90c927;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+	letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+	
+}
+
+
+/* === Section Header Light === */
+.main-content section .section-header-light {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.about .intro ul.info {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.about .intro ul.info li {
+    
+    padding: 7px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #0c0c0b;
+    font-size: 14px;
+}
+
+
+
+.about .intro ul.info li:first-child {
+    padding-top: 0;
+}
+
+.about .intro p {
+    margin: 0;
+}
+
+.about .skills .item {
+    margin-top: 40px;
+}
+
+.about .skills .item .skill-info {
+    margin-bottom: 30px;
+}
+
+.about .skills .item .skill-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.about .skills .item .skill-info span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9C9C9C;
+}
+.about .resume-download {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -12px;
+    background: #5655da;
+	font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/*-----------------------------------------------------------------*/
+/*                      SECTION RESUME                             */
+/*-----------------------------------------------------------------*/
+.resume .top-item {
+    margin-top: 0 !important;
+}
+
+.resume .resume-item {
+    background: rgb(222, 224, 206);   
+    margin-top: 30px;
+    max-height: 140px;
+    overflow: hidden;
+}
+
+.resume .resume-item h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.resume .resume-item span {
+    color: rgb(73, 67, 67);
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.resume .resume-item p {
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* === Button === */
+.btn-default {
+    color: #FFF;
+    background-color: #09090e;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 8px 16px;
+	border-radius: 3px;
+    position: relative;
+}
+
+
+
+.btn-default:hover {
+    color: #FFF;
+    background-color: #5655da;
+    border: 0;
+}
+
+
+
+/* === Progress Bar === */
+.progress {
+    height: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #E0E0E0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 1px;
+    color: #fff;
+    text-align: center;
+    background-color: #f74470;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+   }
+
+/* === Form Control === */
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-bottom: solid 1px #0C0C0C;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #f3eaea;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+
